@@ -1,9 +1,11 @@
-#navigation-bar {
+.navigation-bar {
 
 	width:40%;
 	height:30px;
-	background-color:#05ffa1;
+	background-color:#3CB371;
 	margin:0;
+	z-index:100;
+	position: fixed;
 }
 
 ul {
@@ -71,6 +73,7 @@ footer {
 }
 .bdy {
 	background-color: #bdd9e3;
+	margin-top:90px;
 }
 
 html {
@@ -171,3 +174,24 @@ td, th {
 .container-fluid {
 	max-width:1300px;
 }
+
+/* Jumbotron bilde */
+
+.jumbotron {
+	
+	margin-top:-30px;
+	height:400px;
+	background-image: url(../images/jumbotron2.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	color:white;
+	z-index: -100;
+}
+
+.introtekst {
+	/*
+	text-align: center;
+	*/
+	margin-left:100px;
+}
+
