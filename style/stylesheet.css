@@ -53,8 +53,6 @@ li a {
 }
 
 
-.news {
-}
 
 /*Tabell med nyheter*/
 .tab {
@@ -162,21 +160,23 @@ td, th {
 /* Modul CSS */
 
 .modul {
-	background: #aaa;
-	height: 300px;
-	border: 2px solid;
+	background: white;
+	height: 350px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin: 5px;
 }
 
 
 
 .graf {
-	border: 1px solid black;
+	border: 1px solid #dddddd;
 	height: 240px;
-  margin-top: 10px;
+
+	margin-top:20px;
 }
 .btn {
 	margin: 1em;
+
 }
 
 .kart {
@@ -205,3 +205,17 @@ footer {
 
 /* /Modul CSS */
 
+
+
+/* Wictor CSS */
+
+/*Bilde i venstre graf */
+
+.graf1 {
+	height:240px;
+
+}
+
+.container-fluid {
+	max-width:1300px;
+}
