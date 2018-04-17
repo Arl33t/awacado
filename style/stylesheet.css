@@ -1,0 +1,260 @@
+@font-face {
+
+
+}
+
+
+header {
+	width: 100%;
+	height:70px;
+	background-color:#01cdfe;
+	margin-top:0;
+	padding-top: 10px;
+	text-align:center;
+	position: relative;
+
+}
+.logo {
+	font-size:40px;
+	color:white;
+	
+	
+	margin:0 auto;
+	left:0;
+	right:0;
+	display:inline-block;
+	font-family: 'Lato', sans-serif;
+}
+
+.searchbar {
+	width:130px;
+	height:30px;
+	float:right;
+	margin:auto;
+	top:0;
+	bottom:0;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	
+	border:0;
+	padding:3px;
+	position: absolute;
+	right:80px;
+}
+
+.searchbar:focus {
+	width:20%;
+}
+
+
+.calc {
+	width:30px;
+	height:30px;
+	
+	position: absolute;
+	display: inline-block;
+	right:30px;
+	margin:auto;
+	top:0;
+	bottom:0;
+}
+
+.hamburger {
+
+	left:15px;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+
+}
+
+.dropdown {
+	margin-top:-41px;
+	padding-top: 40px;
+	width:70px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+
+
+#navigation-bar {
+
+	width:40%;
+	height:30px;
+	background-color:#05ffa1;
+	margin:0;
+}
+
+ul {
+	list-style-type: none;
+	font-family: 'Lato', sans-serif;
+	font-weight:800;
+	font-size:20px;
+
+	float:left;
+	margin-top:0;
+	color:white;
+	padding-left:15px;
+
+}
+li {
+	display:inline;
+}
+li a {
+
+	text-decoration: none;
+	color:white;
+}
+
+
+.news {
+}
+
+.tab {
+	color:white;
+	background-color: #737373;
+	padding:5px;
+	display:inline-block;
+	font-weight: bold;
+}
+
+.kommune, .by, .location, .stat {
+	border:0;
+	height: 25px;
+}
+.nyheterTable {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	background-color: white;
+	border-top:3px solid #009933;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+footer {
+	height:30px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #454545;
+
+
+}
+
+.footer_items {
+	color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+
+	font-size:10px;
+	margin-top:5px;
+}
+.body {
+	background-color: red;
+}
+
+html {
+	background-color:#bdd9e3;
+}
+
+
+/*rop5 CSS*/
+
+/*Pilene i tabellen*/
+.piler {
+	height: 16px;
+	width: 16px;
+}
+
+
+/*Bilde av bryggen*/
+#bryggen2 {
+	position: relative;
+	/*bottom: 47px;*/
+	width: 300px;
+	/*left: 355px;*/
+
+}
+
+
+/*TABELL*/
+.top5table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	height: 50px;
+	background-color: #e6e6e6;
+	border-radius: 1%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.top5tr:nth-child(even) {
+    background-color: #dddddd;
+}
+	
+.top5Col {
+
+	width: 610px;
+	height: 300px;
+	background-color: white;
+}
+
+/*/top5 CSS*/
+.row {
+	width: 100%;
+}
+
+/* Modul CSS */
+
+.modul {
+	background: #aaa;
+	height: 300px;
+	border: 2px solid;
+	margin: 5px;
+}
+
+.graf {
+	border: 1px solid black;
+	height: 240px;
+}
+.btn {
+	margin: 1em;
+}
+
+.kart {
+	height: 15em;
+}
+
+/* /Modul CSS */

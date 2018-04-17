@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>	Greensight </title>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="style/stylesheet.css"/>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+  <script src="script.js"></script>
+ <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:400,700" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body class="bdy">
+	<header>
+
+    <div class="logo">GREENSIGHT</div>	
+    <input type="text" class="searchbar" name="search" placeholder="Søk...">
+    <img class="calc" src="media/calc.png" >
+    <span class="glyphicon glyphicon-user"></span>
+
+    <div class="dropdown">
+      <img class="hamburger" border="0" alt="" src="media/menu.png"   >
+      <div class="dropdown-content">
+        <a href="#">Kategorier</a>
+        <a href="#">Dashboard</a>
+        <a href="#">Min bruker</a>
+      </div>
+    </div>
+
+</header>
+<div id="navigation-bar">
+
+  <ul>
+    <li><a href=".html">Greensight</a></li>
+    /
+    <li><a href=".html">Transport </a></li>
+  </ul>
+</div>
+
+
+<div class="container">
+  <div class="row">
+  <div class="col news">
+   <div class="tab">Nyheter</div>
+
+    <select class="kommune">
+      <option>Bergen</option>
+      <option>Kvinnherad</option>
+      <option>Stord</option>
+    </select>
+
+    <select class="by">
+      <option>Bergen</option>
+      <option>Kvinnherad</option>
+      <option>Stord</option>
+    </select>
+    <table class="nyheterTable">
+      <tr>
+        <td>28/02: Odda innfører høyere bompengeavgift for fossilbiler laget i 1995 eller tidligere</td>
+      </tr>
+      <tr>
+        <td>25/02: Kvinnherad melder at skolebussene i kommunen må deles inn i flere seksjoner for å hindre unødvendig utslipp av klimagasser </td>
+      </tr>
+      <tr>
+        <td>02/03: Lorem ipsum nyheitar oretalis borealis</td>
+      </tr>
+    </table>
+  </div>
+    <div class="col-4 top5Col">
+      <div class="tab">TOP 5: Grønne kommuner</div>
+      <select class="location">
+        <option>By</option>
+        <option>Kommune</option>
+        <option>Land</option>
+      </select>
+
+      <select class="stat">
+        <option>Elbiler</option>
+        <option>Utslipp</option>
+        <option>Tiltak</option>
+      </select>
+        <table class="top5table">
+          <tr class="top5tr">
+            <th>BY</th>
+            <th>Elbiler</th>
+          </tr>
+          <tr class="top5tr">
+            <td>Bergen <img class="piler" src="images/png/fire-8x.png"></td>
+            <td>1234</td>
+          </tr>
+          <tr class="top5tr">
+            <td>Stord <img class="piler" src="images/png/caret-bottom-8x.png"></td>
+            <td>1234</td>
+          </tr>
+          <tr class="top5tr">
+            <td>Odda <img class="piler" src="images/png/caret-top-8x.png"></td>
+            <td>1234</td>
+          </tr>
+          <tr class="top5tr">
+            <td>Kvinnherad <img class="piler" src="images/png/caret-bottom-8x.png"></td>
+            <td>1234</td>
+          </tr>
+          <tr class="top5tr">
+            <td>Osterøy <img class="piler" src="images/png/caret-top-8x.png"></td>
+            <td>1234</td>
+          </tr>
+        </table>
+        <img id="bryggen2" src="images/bryggen2.png">
+    </div>
+  </div>
+  <div class="row">
+    <div class="modul col-md">
+      <div class="graf">Graf</div>
+      <div class="row">
+        <button type="button" class="myBtn btn btn-info col-md">Share</button>
+        <button type="button" class="btn btn-primary col-md">Export</button>
+        <button type="button" class="btn btn-dark col-md">Expand</button>
+      </div>
+      </div>
+      <div class="modul col-md">
+        <div class="graf">Graf</div>
+        <div class="row align-items-start">
+          <button type="button" class="btn btn-info col">Share</button>
+          <button type="button" class="btn btn-primary col">Export</button>
+          <button type="button" class="btn btn-dark col">Expand</button>
+      </div>
+      </div>
+      <div class="modul col-md">
+      <div class="row">
+        <iframe class="kart col" src="https://adellica.github.io/greenstat/index.html"></iframe>
+      </div>
+      <div class="row align-items-start">
+        <button type="button" class="btn btn-info col">Share</button>
+        <button type="button" class="btn btn-primary col">Export</button>
+        <button type="button" class="btn btn-dark col">Expand</button>
+      </div>
+      </div>
+  </div>
+</div>
+
+<footer>
+	<div class="footer_items">
+   2018
+ </div>
+</footer>
+</body>
+</html>
