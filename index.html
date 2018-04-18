@@ -10,7 +10,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="script.js"></script>
  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:400,700" rel="stylesheet">
- <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </head>
 
@@ -54,14 +53,14 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="introtekst">
   <h1 class="display-4">Transport</h1>
-  <p class="lead">Alt fra kollektivtransport til tungtransport og featherweight</p>
+  <p class="lead">Alt fra kollektivtransport til tungtransport</p>
   <p><a class="btn btn-primary btn-lg" href="#" role="button"> Lær mer </a></p>
   </div>
 </div>
 
 <!--MAIN CONTENT-->
 
-<div class="container-fluid mainCont">
+<div class="container-fluid">
   <div class="row">
     <div class="col news">
       <div class="tab">Nyheter</div>
@@ -135,17 +134,18 @@
 
   <!--SEKSJON MODULER-->
   <div class="row">
-    <div class="modul mod1 col-md" id="modul1">
+    <div class="modul mod1 col-md">
       <div class="grafTekst">GrafTekst goes here</div>
       <div class="graf"><img class="graf1" src="images/graf1.png"></div>
       <div class="row">
         <button type="button" class="myBtn btn btn-info col-md">Share</button>
         <button type="button" class="myBtn btn btn-primary col-md">Export</button>
-        <button type="button" class="expBtn btn btn-dark col-md" onclick="expandModul()">Expand</button>
+        <button type="button" class="btn btn-dark col-md">Expand</button>
       </div>
     </div>
       <div class="modul col-md">
-        <div class="graf">Graf</div>
+        <div class="grafTekst">Graf</div>
+         <div class="graf"><img class="graf1" src="images/graf2.png"></div>
         <div class="row align-items-start">
           <button type="button" class="btn btn-info col">Share</button>
           <button type="button" class="btn btn-primary col">Export</button>
@@ -191,7 +191,5 @@
 </div>
 </div>
 </footer>
-
-
 </body>
 </html>

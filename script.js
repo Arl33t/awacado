@@ -1,3 +1,4 @@
+var el = document.querySelectorAll(".myBtn");
 let state = 0;
 function expandModul() {
     if (state === 0) {
@@ -17,9 +18,8 @@ function expandModul() {
         console.log("test2");
         state--;
     }
+    });
 }
-
-
 
 /*function myFunction() {
     if (state === 0) {

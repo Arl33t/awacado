@@ -171,9 +171,9 @@ td, th {
 }
 
 /*FOOTER*/
-
 footer {
 	height:30px;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -201,8 +201,7 @@ footer {
 	height:240px;
 }
 
-/* Main Container*/
-.mainCont {
+.container-fluid {
 	max-width:1300px;
 }
 
@@ -220,15 +219,13 @@ footer {
 }
 
 .introtekst {
-	/*
+	
 	text-align: center;
-	*/
-	margin-left:100px;
+	
 }
 
-
 .footCont {
-	background-color:#1e3d48;
+	background-color:#304851;
 	width:100%;
 	height:100px;
 	margin-top:80px;
