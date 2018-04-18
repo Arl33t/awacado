@@ -6,139 +6,142 @@
   <meta charset="UTF-8">
   <link type="text/css" rel="stylesheet" href="style/stylesheet.css"/>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="script.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:400,700" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </head>
 
 <body class="bdy">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Greensight</a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Greensight</a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">     
-        <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Meny
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Kategorier</a>
-            <a class="dropdown-item" href="#">Dashboard</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Min bruker</a>
-          </div>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-  <div id="navigation-bar">
-    <ul>
-      <li><a href=".html">Greensight</a></li>
-      /
-      <li><a href=".html">Transport </a></li>
-    </ul>
-  </div>
-
-  <div class="jumbotron jumbotron-fluid">
-    <div class="introtekst">
-      <h1 class="display-4">Transport</h1>
-      <p class="lead">Alt fra kollektivtransport til tungtransport og featherweight</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button"> Lær mer </a></p>
-    </div>
-  </div>
-
-  <!--MAIN CONTENT-->
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col news">
-        <div class="tab1">Nyheter</div>
-        <select class="kommune">
-          <option>Bergen</option>
-          <option>Kvinnherad</option>
-          <option>Stord</option>
-        </select>
-        <select class="by">
-          <option>Bergen</option>
-          <option>Kvinnherad</option>
-          <option>Stord</option>
-        </select>
-        <table class="nyheterTable">
-          <tr>
-            <td>28/02: Odda innfører høyere bompengeavgift for fossilbiler laget i 1995 eller tidligere</td>
-          </tr>
-          <tr>
-            <td>25/02: Kvinnherad melder at skolebussene i kommunen må deles inn i flere seksjoner for å hindre unødvendig utslipp av klimagasser </td>
-          </tr>
-          <tr>
-            <td>02/03: Lorem ipsum nyheitar oretalis borealis</td>
-          </tr>
-        </table>
-      </div>
-
-      <!--TOP 5 TABELLEN-->
-      <div class="col-4 top5Col">
-        <div class="tittel_tab2">
-         
-        <h4>TOP 5: Miljøbyer</h4>
-
-         <table class="top5table">
-  
-
-
-  <thead class="thead-dark">
-    
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Bergen</td>
-      
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Oslo</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Trondheim</td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td>Stavanger</td>
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td>Førde</td>
-    </tr>
-  </tbody>
-</table>
-
-      </div> 
-      <img id="bryggen" src="images/bryggen2.png">
-    </div>
-    <!--TABELLEN ENDER HER-->
-
-    <!--SEKSJON MODULER-->
-    <div class="row">
-      <div class="modul col-md">
-        <div class="graf"><img class="graf1" src="images/graf1.png"></div>
-        <div class="row">
-          <button type="button" class="myBtn btn btn-info col-md">Share</button>
-          <button type="button" class="myBtn btn btn-primary col-md">Export</button>
-          <button type="button" class="btn btn-dark col-md">Expand</button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">     
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Meny
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Kategorier</a>
+          <a class="dropdown-item" href="#">Dashboard</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Min bruker</a>
         </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div id="navigation-bar">
+  <ul>
+    <li><a href=".html">Greensight</a></li>
+    /
+    <li><a href=".html">Transport </a></li>
+  </ul>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="introtekst">
+  <h1 class="display-4">Transport</h1>
+  <p class="lead">Alt fra kollektivtransport til tungtransport og featherweight</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button"> Lær mer </a></p>
+  </div>
+</div>
+
+<!--MAIN CONTENT-->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col news">
+      <div class="tab">Nyheter</div>
+      <select class="kommune">
+        <option>Bergen</option>
+        <option>Kvinnherad</option>
+        <option>Stord</option>
+      </select>
+      <select class="by">
+        <option>Bergen</option>
+        <option>Kvinnherad</option>
+        <option>Stord</option>
+      </select>
+      <table class="nyheterTable">
+        <tr>
+          <td>28/02: Odda innfører høyere bompengeavgift for fossilbiler laget i 1995 eller tidligere</td>
+        </tr>
+        <tr>
+          <td>25/02: Kvinnherad melder at skolebussene i kommunen må deles inn i flere seksjoner for å hindre unødvendig utslipp av klimagasser </td>
+        </tr>
+        <tr>
+          <td>02/03: Lorem ipsum nyheitar oretalis borealis</td>
+        </tr>
+      </table>
+    </div>
+
+  <!--TOP 5 TABELLEN-->
+    <div class="col-4 top5Col">
+      <div class="tab">TOP 5: Grønne kommuner</div>
+      <select class="location">
+        <option>By</option>
+        <option>Kommune</option>
+        <option>Land</option>
+      </select>
+
+      <select class="stat">
+        <option>Elbiler</option>
+        <option>Utslipp</option>
+        <option>Tiltak</option>
+      </select>
+      <table class="top5table">
+        <tr class="top5tr">
+          <th>BY</th>
+          <th>Elbiler</th>
+        </tr>
+        <tr class="top5tr">
+          <td>Bergen <img class="piler" src="images/png/fire-8x.png"></td>
+          <td>1234</td>
+        </tr>
+        <tr class="top5tr">
+          <td>Stord <img class="piler" src="images/png/caret-bottom-8x.png"></td>
+          <td>1234</td>
+        </tr>
+        <tr class="top5tr">
+          <td>Odda <img class="piler" src="images/png/caret-top-8x.png"></td>
+          <td>1234</td>
+        </tr>
+        <tr class="top5tr">
+          <td>Kvinnherad <img class="piler" src="images/png/caret-bottom-8x.png"></td>
+          <td>1234</td>
+        </tr>
+        <tr class="top5tr">
+          <td>Osterøy <img class="piler" src="images/png/caret-top-8x.png"></td>
+          <td>1234</td>
+        </tr>
+      </table>
+      <div><img id="bryggen2" src="images/bryggen2.png"></div>
+    </div>
+  </div>
+  <!--TABELLEN ENDER HER-->
+
+  <!--SEKSJON MODULER-->
+  <div class="row">
+    <div class="modul col-md">
+      <div class="graf"><img class="graf1" src="images/graf1.png"></div>
+      <div class="row">
+        <button type="button" class="myBtn btn btn-info col-md">Share</button>
+        <button type="button" class="myBtn btn btn-primary col-md">Export</button>
+        <button type="button" class="btn btn-dark col-md">Expand</button>
       </div>
+    </div>
       <div class="modul col-md">
         <div class="graf">Graf</div>
         <div class="row align-items-start">
@@ -157,16 +160,16 @@
           <button type="button" class="btn btn-dark col">Expand</button>
         </div>
       </div>
-    </div>
   </div>
-  <!--MODULER-->
+</div>
+<!--MODULER-->
 
-  <!--MAIN CONTENT ends here-->
+<!--MAIN CONTENT ends here-->
 
-  <footer>
-    <div class="footer_items">
-     2018
-   </div>
- </footer>
+<footer>
+  <div class="footer_items">
+   2018
+ </div>
+</footer>
 </body>
 </html>

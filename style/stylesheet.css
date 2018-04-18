@@ -49,13 +49,8 @@ li a {
 	color:white;
 }
 
-.col-4 {
-	background-color: whitesmoke;
-	height: 253px;
-}
-
 /*Tabell med nyheter*/
-.tab1 {
+.tab {
 	color:white;
   	width: 150px;
 	background-color: #737373;
@@ -64,17 +59,16 @@ li a {
 	font-weight: bold;
 }
  /*Tabell med top5*/
-.tittel_tab2 {
-  	
-    width: auto;
-    height: 40px;
-    padding: 0px;
-    display: inline-block;
-    background-color: #737373;
-    margin: 2px;
-    margin-left: -15px;
+.tab2 {
+	color:white;
+  	margin: 0px;
+  	padding: 0px;
+  	width: 180px;
+	background-color: #737373;
+	padding:5px;
+	display:inline-block;
+	font-weight: bold;
 }
-
 
 .kommune, .by, .location, .stat {
 	border:0;
@@ -109,25 +103,22 @@ html {
 
 
 /*Bilde av bryggen*/
-#bryggen {
-	    position: relative;
-    height: 58%;
-    width: 65%;
-    left: 53%;
-    bottom: 1%;
-    
+#bryggen2 {
+	position: relative;
+	height: 100px;
+	width: 150px;
 }
 
 
-/*TABELL med byene*/
+/*TABELL*/
 .top5table {
-    width: 220px;
-    margin-top: 0px;
-    top:0px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 	height: auto;
 	background-color: #e6e6e6;
+	border-radius: 1%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	
 }
 
 td, th {
