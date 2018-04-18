@@ -5,13 +5,16 @@ function expandModul() {
         document.querySelector(".mod1").style.height ="800px";
         document.querySelector(".mod1").style.margin ="0px 0px 0px 100px";
         */
-        document.querySelector(".mod1").class = "text-primary";
+        console.log("test");
+        document.querySelector("#modul1").classList.add("text-primary");
         state++;
     }else {
         /*
         document.querySelector(".mod1").style.height ="300px";
         document.querySelector(".mod1").style.margin ="5px";
         */
+        document.querySelector("#modul1").classList.remove("text-primary");
+        console.log("test2");
         state--;
     }
 }
