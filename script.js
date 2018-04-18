@@ -1,12 +1,17 @@
 let state = 0;
 function expandModul() {
     if (state === 0) {
+        /*
         document.querySelector(".mod1").style.height ="800px";
         document.querySelector(".mod1").style.margin ="0px 0px 0px 100px";
+        */
+        document.querySelector(".mod1").class = "text-primary";
         state++;
     }else {
+        /*
         document.querySelector(".mod1").style.height ="300px";
         document.querySelector(".mod1").style.margin ="5px";
+        */
         state--;
     }
 }
