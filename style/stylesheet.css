@@ -1,11 +1,12 @@
 #navigation-bar {
 
 	    width: 20%;
-    height: 50px;
+    height: 30px;
     background-color: #3CB371;
     margin: 0;
     z-index: 100;
     position: fixed;
+
 }
 
 /*coverseksjon*/
@@ -67,15 +68,17 @@ height: 250px;
 
 
 
-ul {
+.navul {
 	list-style-type: none;
 	font-family: 'Lato', sans-serif;
 	font-weight:800;
-	font-size:20px;
+	font-size:15px;
 	float:left;
 	margin-top:0;
 	color:white;
 	padding-left:15px;
+	
+
 }
 li {
 	display:inline;
@@ -99,11 +102,13 @@ li a {
 	color:white;
   	margin: 0px;
   	padding: 0px;
-  	width: 100%;
+  	width: 50%;
 	background-color: #737373;
 	padding:5px;
 	display:inline-block;
 	font-weight: bold;
+
+	
 }
 
 .kommune, .by, .location, .stat {
@@ -117,6 +122,14 @@ li a {
 	background-color: white;
 	border-top:3px solid #009933;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+td {
+	 max-width: 800px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /*body*/
@@ -139,10 +152,14 @@ html {
 
 
 /*Bilde av bryggen*/
-#bryggen2 {
+.bryggen3 {
 	position: relative;
-	height: 100px;
-	width: 150px;
+	float:right;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-top:34px;
+	border-top:3px solid #009933;
+
+	
 }
 
 
@@ -150,10 +167,10 @@ html {
 .top5table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
-	height: auto;
+    width: 62.9%;
+	height: 279px;
 	background-color: #e6e6e6;
-	border-radius: 1%;
+	border-top:3px solid #009933;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -161,10 +178,11 @@ td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+
 }
 
 .top5tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: white;
 }
 	
 .top5Col {
@@ -250,7 +268,7 @@ footer {
 
 .jumbotron {
 	
-	margin-top:-30px;
+	margin-top:-35px;
 	height:400px;
 	background-image: url(../images/jumbotron2.jpg);
 	background-size:cover;
