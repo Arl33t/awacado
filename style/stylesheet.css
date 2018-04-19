@@ -33,18 +33,46 @@
 /*Main content*/
 .container {
   	width:auto;
-  	margin: 50px;
+  	margin: 0px;
   	padding: 0px;
+  	height: 120px;
+  	text-align: center;
 }
 
 #container_nederst {
 	width: 100%;
-	height: 250px;
-	background-color: white;
+	height: auto;
+	background-color: #3CB371;
 	margin-right: auto;
 	margin-right: auto;
+	border: outset;
+	margin-top: 80px;
+	color:white;
 	
 }
+
+#klikkher{
+	text-align: center;
+}
+
+.form-group {
+	height: auto;
+	margin: 20px;
+}
+
+.kommentarfelt {
+	font-size: 35px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 5px;
+}
+
+
+
+
+
+
 
 .ikon {
 	display: inline;
@@ -60,9 +88,8 @@
 
 
 
-
 .tomtom {
-height: 250px;
+height: 0px;
 }
 
 
