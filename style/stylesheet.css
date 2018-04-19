@@ -122,14 +122,17 @@ li a {
 	background-color: white;
 	border-top:3px solid #009933;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	width:100%;
+
 
 }
 
 td {
-	 max-width: 800px;
+	 max-width: 200px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+
 }
 
 /*body*/
@@ -166,6 +169,7 @@ html {
 /*TABELL*/
 .top5table {
     font-family: arial, sans-serif;
+
     border-collapse: collapse;
     width: 62.9%;
 	height: 279px;
@@ -179,6 +183,9 @@ td, th {
     text-align: left;
     padding: 8px;
 
+}
+.nyheterTable td {
+	padding:10.5px;
 }
 
 .top5tr:nth-child(even) {
