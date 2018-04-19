@@ -203,7 +203,7 @@ td, th {
 
 /*/top5 CSS*/
 .row {
-	width: 100%;
+	width: 100%; /*Fikser bredden på radene*/
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
@@ -214,24 +214,40 @@ td, th {
 	background: white;
 	height: 350px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	margin: 5px;
+	margin: 0px 5px 5px 5px;
 }
-
 
 .graf {
 	border: 1px solid #dddddd;
 	height: 240px;
-
 	margin-top:20px;
 }
 .btn {
-	margin: 1em;
 
+}
+
+.btnRow{
+	margin: 0px !important;
+}
+
+/*Teksten som står over grafene*/
+.grafTekst {
 }
 
 .kart {
-	height: 15em;
+	height: 22em;
+	width: 100%;
 }
+.kartModul {
+	height: 26em;
+}
+
+/*Bilde i venstre graf */
+.graf1 {
+	height:95%;
+}
+
+/* /slutt Modul CSS */
 
 /*FOOTER*/
 footer {
@@ -249,19 +265,37 @@ footer {
 	font-size:10px;
 	margin-top:5px;
 }
+
+/* Knapper for sosiale medier i footer */
+.sosialLink:link {
+	text-decoration: none;
+	color: white;
+}
+.sosialLink:visited {
+	text-decoration: none;
+	color: grey;
+}
+.sosialLink:hover {
+}
+.sosialLink:active {
+	text-decoration: none;
+}
+.fbBtn:hover {
+	color: #3b5998;
+}
+.twtBtn:hover {
+	color: #1da1f2;
+}
+.instBtn:hover {
+	color: tomato;
+}
+.snpBtn:hover {
+	color: yellow;
+}
 /*----------------*/
 
-/* /Modul CSS */
 
 
-
-/* Wictor CSS */
-
-/*Bilde i venstre graf */
-
-.graf1 {
-	height:240px;
-}
 
 .container-fluid {
 	max-width:1300px;

@@ -7,14 +7,14 @@ function expandModul() {
         document.querySelector(".mod1").style.margin ="0px 0px 0px 100px";
         */
         console.log("test");
-        document.querySelector("#modul1").classList.add("text-primary");
+        document.querySelector(".mod1").classList.add("text-primary");
         state++;
     }else {
         /*
         document.querySelector(".mod1").style.height ="300px";
         document.querySelector(".mod1").style.margin ="5px";
         */
-        document.querySelector("#modul1").classList.remove("text-primary");
+        document.querySelector(".mod1").classList.remove("text-primary");
         console.log("test2");
         state--;
     }
