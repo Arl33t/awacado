@@ -178,7 +178,7 @@ td, th {
 
 /*/top5 CSS*/
 .row {
-	width: 100%;
+	width: 100%; /*Fikser bredden på radene*/
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
@@ -189,19 +189,23 @@ td, th {
 	background: white;
 	height: 350px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	margin: 5px;
 }
-
 
 .graf {
 	border: 1px solid #dddddd;
 	height: 240px;
-
 	margin-top:20px;
 }
 .btn {
-	margin: 1em;
 
+}
+
+.btnRow{
+	margin: 0px !important;
+}
+
+/*Teksten som står over grafene*/
+.grafTekst {
 }
 
 .kart {
