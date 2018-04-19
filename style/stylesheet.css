@@ -211,7 +211,6 @@ td, th {
 /*FOOTER*/
 footer {
 	height:30px;
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -281,4 +280,5 @@ h5, h6 {
 
 .icons {
 	font-size:2em;
+	color:white;
 }
