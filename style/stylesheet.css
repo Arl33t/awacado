@@ -19,16 +19,20 @@
 
 
 /* Jumbotron bilde */
-
 .jumbotron {
 	margin-top:-35px;
 	height:400px;
-	background-image: url(../images/jumbotron2.jpg);
 	background-size:cover;
 	background-attachment: fixed;
 	color:white;
 	z-index: -100;
 }
+
+/* For å endre bilde per side*/
+.transportJumbo { 
+	background-image: url(../images/jumbotron2.jpg);
+}
+
 
 .introtekst {
 	text-align: center;
@@ -74,6 +78,7 @@ li a {
 	padding:5px;
 	display:inline-block;
 	font-weight: bold;
+	border-top-right-radius: 30px;
 }
 
 .kommune, .by, .location, .stat {
@@ -147,6 +152,7 @@ td, th {
 	padding:5px;
 	display:inline-block;
 	font-weight: bold;
+	border-top-right-radius: 30px;
 }
 /*Pilene i tabellen*/
 .piler {
@@ -177,12 +183,36 @@ td, th {
 	margin-top:20px;
 }
 
+/* Knapper modul */
+.modBtnImg {
+	height: 100%;
+	width: 100%;
+	filter: invert(100%);
+}
+.modBtn {
+	width: 3em !important;
+	background: #3CB371;
+	margin: 1px;
+}
+.modBtn:hover {
+	background: #194c30;
+}
+
 .btnRow{
 	margin: 0px !important;
+	float: right;
 }
 
 /*Teksten som står over grafene*/
 .grafTekst {
+	color: white;
+	background: #737373;
+	display: inline-block;
+	padding: 5px;
+	display:inline-block;
+	font-weight: bold;
+	margin-left: -15px;
+	border-radius: 0px 0px 20px 0px;
 }
 
 .kart {
