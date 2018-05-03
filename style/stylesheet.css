@@ -1,6 +1,6 @@
 /*body - bakgrunnsfarge*/
 .bdy {
-	background-color: #bdd9e3;
+	background-color: #F4F4F4;
 	margin-top:90px;
 }
 /* Fikser bredde på containers */
@@ -206,7 +206,7 @@ td, th {
 /*Teksten som står over grafene*/
 .grafTekst {
 	color: white;
-	background: #737373;
+	background: #57BC90;
 	display: inline-block;
 	padding: 5px;
 	display:inline-block;
