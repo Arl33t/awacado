@@ -36,13 +36,13 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Trafikk</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">Transport</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Utslipp</a>
+        </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">Industri</a>
+          <a class="nav-link" href="#">Energiforbruk</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -64,8 +64,19 @@
     <div class="introtekst">
       <h1 class="display-4">Transport</h1>
       <p class="lead">Alt fra kollektivtransport til tungtransport</p>
-      
-        <p><a class="btn btn-primary btn-lg" href="#" role="button"> Lær mer </a></p>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col col-sm-1">
+            <button class="btn btn-primary btn-sm jumboBtn" href="#" role="button"> Trafikk </button>
+          </div>
+          <div class="col col-sm-1">
+            <button class="btn btn-primary btn-sm jumboBtn" href="#" role="button"> Kjøretøy </button>
+          </div>
+          <div class="col col-sm-1">
+            <button class="btn btn-primary btn-sm jumboBtn" href="#" role="button"> Industri </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -81,7 +92,7 @@
           <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
           <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
           <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png" data-toggle="modal" data-target="#exampleModal"></button>
         </div>
       </div>
       <div class="modul col">
@@ -102,6 +113,29 @@
           <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
           <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
           <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- popup/expand -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modul</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="forstrMod"><img class="forstrModImg" src="images/graf1.png"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
+            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
+            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>

@@ -17,6 +17,10 @@
     position: fixed;
 }
 
+.jumboBtn {
+	width: 5em;
+}
+
 
 /* Jumbotron bilde */
 .jumbotron {
@@ -178,7 +182,6 @@ td, th {
 }
 
 .graf {
-	border: 1px solid #dddddd;
 	height: 240px;
 	margin-top:20px;
 }
@@ -228,6 +231,12 @@ td, th {
 .kartModul {
 	height: 26em;
 	margin-top:0px;
+}
+
+.forstrMod {
+}
+.forstrModImg {
+	width: 100%;
 }
 
 /* /slutt Modul CSS */
