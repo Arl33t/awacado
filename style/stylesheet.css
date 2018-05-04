@@ -17,11 +17,16 @@
     position: fixed;
 }
 
+
+
 .jumboBtn {
 	width: 5em;
 	background-color: #77C9D4 !important;
-	border-color: #77C9D4 !important;
+	border-color: white !important;
+}
 
+.jumboBtn:hover {
+	background-color: #76b0d4 !important;
 }
 
 
@@ -65,7 +70,7 @@
 	font-weight:800;
 	font-size:15px;
 	float:left;
-	margin-top:0;
+	margin-top:3px;
 	color:white;
 	padding-left:15px;
 }
@@ -81,12 +86,12 @@ li a {
 
 .tab1 {
 	color:white;
-  	width: 150px;
-	background-color: #737373;
-	padding:5px;
+  	width: 10em;
+	background-color: #57BC90;
+	padding-left: 5px;
 	display:inline-block;
 	font-weight: bold;
-	border-top-right-radius: 30px;
+	border-top-right-radius: 10px;
 }
 
 .kommune, .by, .location, .stat {
@@ -110,7 +115,7 @@ td {
     white-space: nowrap;
 }
 .nyheterTable td {
-	padding:10.5px;
+	padding:11px;
 }
 
 .news {
@@ -122,18 +127,21 @@ td {
 .top5table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 64.87%;
+    width: 100%;
 	height: 279px;
 	background-color: #e6e6e6;
 	border-top:3px solid #009933;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+.tableImg {
+	width: 10%;
+}
+
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-
 }
 
 .top5tr:nth-child(even) {
@@ -141,7 +149,6 @@ td, th {
 }
 	
 .top5Col {
-	
 	width: auto;
 	height: 350px;
   	margin-bottom: 20px;
@@ -150,18 +157,6 @@ td, th {
   	padding-right:4px !important;
 }
 
- /*Tekst oppå top5*/
-.tab2 {
-	color:white;
-  	margin: 0px;
-  	padding: 0px;
-  	width: 50%;
-	background-color: #737373;
-	padding:5px;
-	display:inline-block;
-	font-weight: bold;
-	border-top-right-radius: 30px;
-}
 /*Pilene i tabellen*/
 .piler {
 	height: 16px;
@@ -169,20 +164,18 @@ td, th {
 }
 /*Bilde av bryggen*/
 .bryggen3 {
-	position: relative;
-	float:right;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	margin-top:34px;
-	border-top:2px solid #009933;
+	margin: -10px;
+	float: right;
 }
 
 
 /* Modul CSS */
 .modul {
 	background: white;
-	height: 350px;
+	height: 21.5em;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin: 0px 5px 40px 5px;
+	max-width: 450px;
 }
 
 .graf {
@@ -198,7 +191,7 @@ td, th {
 }
 .modBtn {
 	width: 3em !important;
-	background: #3CB371;
+	background: #57BC90;
 	margin: 1px;
 }
 .modBtn:hover {
@@ -212,15 +205,14 @@ td, th {
 
 /*Teksten som står over grafene*/
 .grafTekst {
-	color: white;
-	background: #57BC90;
-	display: inline-block;
-	padding: 5px;
+	color:white;
+  	width: 10em;
+	background-color: #57BC90;
+	padding-left: 5px;
 	display:inline-block;
 	font-weight: bold;
+	border-bottom-right-radius: 10px;
 	margin-left: -15px;
-	border-radius: 0px 0px 20px 0px;
-	font-family:Helvetica ;
 }
 
 .kart {
@@ -230,7 +222,7 @@ td, th {
 
 /*Bilde i venstre graf */
 .graf1 {
-	height:95%;
+	width:95%;
 }
 
 .kartModul {
@@ -317,17 +309,25 @@ h5, h6 {
 #container_nederst {
 	width: 100%;
 	height: auto;
-	background-color: #3CB371;
+	background-color: #57BC90;
 	margin-right: auto;
 	margin-right: auto;
 	border: none;
 	margin-top: 80px;
 	color:white;
+	text-align:center;
 }
 
 #klikkher{
 	text-align: center;
 	margin-top:10px;
+	background-color:#015249 !important;
+	border:none !important;
+}
+
+.btn-primary {
+	background-color:#015249 !important;
+	margin-bottom: 10px;
 }
 
 .form-group {

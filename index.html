@@ -5,6 +5,7 @@
   <title> Greensite </title>
   <meta charset="UTF-8">
   <link type="text/css" rel="stylesheet" href="style/stylesheet.css"/>
+  <script src="style/submenu.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -36,7 +37,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Transport</a>
+          <a class="nav-link" href="#" style="font-weight: bold">Transport</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Utslipp</a>
@@ -44,10 +45,13 @@
          <li class="nav-item">
           <a class="nav-link" href="#">Energiforbruk</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Om oss</a>
+        </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Søk" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Kjør da!</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Søk</button>
       </form>
     </div>
   </nav>
@@ -64,83 +68,14 @@
     <div class="introtekst">
       <h1 class="display-4">Transport</h1>
       <p class="lead">Alt fra kollektivtransport til tungtransport</p>
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col col-sm-1">
-            <button class="btn btn-primary btn-sm jumboBtn" href="#" role="button"> Trafikk </button>
-          </div>
-          <div class="col col-sm-1">
-            <button class="btn btn-primary btn-sm jumboBtn" href="#" role="button"> Kjøretøy </button>
-          </div>
-          <div class="col col-sm-1">
-            <button class="btn btn-primary btn-sm jumboBtn" href="#" role="button"> Industri </button>
-          </div>
-        </div>
-      </div>
+      <button class="btn btn-primary btn-sm jumboBtn" href="#" role="button"> Mer </button>
     </div>
   </div>
 
   <!--MAIN CONTENT-->
   
   <div class="container-fluid">
-    <!--SEKSJON MODULER-->
-    <div class="row">
-      <div class="modul mod1 col">
-        <div class="grafTekst">Elbilsalg Nasjonalt</div>
-        <div class="graf"><img class="graf1" src="images/graf1.png"></div>
-        <div class="row btnRow">
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png" data-toggle="modal" data-target="#exampleModal"></button>
-        </div>
-      </div>
-      <div class="modul col">
-        <div class="grafTekst">Utslipp 2015-2016</div>
-        <div class="graf"><img class="graf1" src="images/graf2.png"></div>
-        <div class="row btnRow">
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png"></button>
-        </div>
-      </div>
-      <div class="modul col">
-        <div class="grafTekst">Statistikk Elbil</div>
-        <div class="graf"><img class="graf1" src="images/graf1.png"></div>
-        <div class="row btnRow">
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
-          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png"></button>
-        </div>
-      </div>
-    </div>
-
-    <!-- popup/expand -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modul</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="forstrMod"><img class="forstrModImg" src="images/graf1.png"></div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
-            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
-            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
+        <div class="row">
       <div class="col news">
         <div class="tab1">Nyheter</div>
         <select class="kommune">
@@ -177,11 +112,12 @@
 
       <!--TOP 5 TABELLEN-->
       <div class="col-4 top5Col">
-        <div class="tab2">TOPP 5: Miljøbyer</div>
+        <div class="tab1">TOPP 5: Miljøbyer</div>
         <table class="top5table">
           <tr class="top5tr">
             <th>BY</th>
             <th>Elbiler</th>
+            <th class="tableImg" rowspan="6"><img class="bryggen3" src="images/bryggen2.jpg"></th>
           </tr>
           <tr class="top5tr">
             <td>Bergen <img class="piler" src="images/png/fire-8x.png"></td>
@@ -203,10 +139,70 @@
             <td>Osterøy <img class="piler" src="images/png/caret-top-8x.png"></td>
             <td>1234</td>
           </tr>
-          <img class="bryggen3" src="images/bryggen2.jpg">
+          
         </table>
       </div>
     </div>
+
+    <!--SEKSJON MODULER-->
+    <div class="row">
+      <div class="modul mod1 col">
+        <div class="grafTekst">Elbilsalg Nasjonalt</div>
+        <div class="graf"><img class="graf1" src="images/graf1.png"></div>
+        <div class="row btnRow">
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
+          <button type="button" class="modBtn btn" data-toggle="modal" data-target="#exampleModal"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png"></button>
+        </div>
+      </div>
+      <div class="modul col">
+        <div class="grafTekst">Utslipp 2015-2016</div>
+        <div class="graf"><img class="graf1" src="images/graf2.png"></div>
+        <div class="row btnRow">
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png"></button>
+        </div>
+      </div>
+      <div class="modul col">
+        <div class="grafTekst">Statistikk Elbil</div>
+        <div class="graf"><img class="graf1" src="images/graf1.png"></div>
+        <div class="row btnRow">
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
+          <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/fullscreen-enter-8x.png"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- popup/expand -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Elbilsalg Nasjonalt</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="forstrMod"><img class="forstrModImg" src="images/graf1.png"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/info-8x.png"></button>
+            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/share-8x.png"></button>
+            <button type="button" class="modBtn btn"><img class="modBtnImg" src="images/png/data-transfer-download-8x.png"></button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Lukk</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slutt popup -->
+
+
   <div class="row">
     <div class="col modul kartModul">
       <div class="grafTekst">Hydrogenkalkulator</div>
@@ -226,24 +222,14 @@
   <!--collapse container-->
   <div id="demo" class="collapse">
     <form action="/action_page.php">
-      <div class="form-group">
-        <label for="email">Email address:</label>
-        <input type="email" class="form-control" id="email">
-      </div>
+      
 
       <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="pwd">
-      </div>
-
-      <div class="form-group">
-        <label for="comment">Comment:</label>
+        <label for="comment">Beskriv hva du ønsker å se:</label>
         <textarea class="form-control" rows="5" id="comment"></textarea>
       </div>
 
-      <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-      </div>
+      
       <!--Knapp-->
       <button type="submit" class="btn btn-primary btn-lg">Submit</button>
 
