@@ -86,12 +86,12 @@ li a {
 
 .tab1 {
 	color:white;
-  	width: 150px;
+  	width: 10em;
 	background-color: #57BC90;
-	padding:5px;
+	padding-left: 5px;
 	display:inline-block;
 	font-weight: bold;
-	border-top-right-radius: 30px;
+	border-top-right-radius: 10px;
 }
 
 .kommune, .by, .location, .stat {
@@ -127,11 +127,15 @@ td {
 .top5table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 64.87%;
+    width: 100%;
 	height: 279px;
 	background-color: #e6e6e6;
 	border-top:3px solid #009933;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.tableImg {
+	width: 10%;
 }
 
 td, th {
@@ -145,7 +149,6 @@ td, th {
 }
 	
 .top5Col {
-	
 	width: auto;
 	height: 350px;
   	margin-bottom: 20px;
@@ -154,18 +157,6 @@ td, th {
   	padding-right:4px !important;
 }
 
- /*Tekst oppå top5*/
-.tab2 {
-	color:white;
-  	margin: 0px;
-  	padding: 0px;
-  	width: 50%;
-	background-color: #57BC90;
-	padding:5px;
-	display:inline-block;
-	font-weight: bold;
-	border-top-right-radius: 30px;
-}
 /*Pilene i tabellen*/
 .piler {
 	height: 16px;
@@ -173,18 +164,15 @@ td, th {
 }
 /*Bilde av bryggen*/
 .bryggen3 {
-	position: relative;
-	float:right;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	margin-top:34px;
-	border-top:2px solid #009933;
+	margin: -10px;
+	float: right;
 }
 
 
 /* Modul CSS */
 .modul {
 	background: white;
-	height: 350px;
+	height: 21.5em;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin: 0px 5px 40px 5px;
 	max-width: 450px;
@@ -217,15 +205,14 @@ td, th {
 
 /*Teksten som står over grafene*/
 .grafTekst {
-	color: white;
-	background: #57BC90;
-	display: inline-block;
-	padding: 5px;
+	color:white;
+  	width: 10em;
+	background-color: #57BC90;
+	padding-left: 5px;
 	display:inline-block;
 	font-weight: bold;
+	border-bottom-right-radius: 10px;
 	margin-left: -15px;
-	border-radius: 0px 0px 20px 0px;
-	font-family:Helvetica;	
 }
 
 .kart {
@@ -235,7 +222,7 @@ td, th {
 
 /*Bilde i venstre graf */
 .graf1 {
-	height:95%;
+	width:95%;
 }
 
 .kartModul {
