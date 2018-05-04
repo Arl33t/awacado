@@ -38,6 +38,11 @@
 	text-align: center;
 }
 
+.btn btn-primary btn-lg {
+	display: inline-block;
+}
+
+
 #rs {
 	color:gray;
 	font-size: 40px;
