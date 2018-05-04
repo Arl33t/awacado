@@ -20,8 +20,11 @@
 .jumboBtn {
 	width: 5em;
 	background-color: #77C9D4 !important;
-	border-color: #77C9D4 !important;
+	border-color: white !important;
+}
 
+.jumboBtn:hover {
+	background-color: #76b0d4 !important;
 }
 
 
@@ -110,7 +113,7 @@ td {
     white-space: nowrap;
 }
 .nyheterTable td {
-	padding:10.5px;
+	padding:11px;
 }
 
 .news {
@@ -133,7 +136,6 @@ td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-
 }
 
 .top5tr:nth-child(even) {
@@ -183,6 +185,7 @@ td, th {
 	height: 350px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin: 0px 5px 40px 5px;
+	max-width: 450px;
 }
 
 .graf {
@@ -220,7 +223,7 @@ td, th {
 	font-weight: bold;
 	margin-left: -15px;
 	border-radius: 0px 0px 20px 0px;
-	font-family:Helvetica ;
+	font-family:Helvetica;	
 }
 
 .kart {
